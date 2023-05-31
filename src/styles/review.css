@@ -1,0 +1,35 @@
+.reviews {
+  padding: 40px 0;
+  margin-top: 150px;
+  text-align: justify;
+}
+.reviews h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.col {
+  row-gap: 10px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.review {
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgb(12, 17, 1);
+}
+.name {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.bintang {
+  color: #8c5b2bfa;
+  margin-bottom: 15px;
+}
